@@ -1,5 +1,5 @@
 # Project Name: <sub>  Cheap </sub>Eats
-IST-303 Class - Group Project
+IST-303 - Class of Fall 2022 - Group Project
 
 <h4> Group Name: Syntax_Error </h4>
 
