@@ -18,7 +18,7 @@ In this application the restaurant owners or event hosts can also input data to 
 <h3><strong> User Stories </strong></h3>
 <ul>
     <li>Users will create and login details and with current location/address : 5 days</li>
-    <li>Users will search for food items : 3 days</li>
+    <li>Users will search for food items : 5 days</li>
     <li>Users will create a list of items with sepcific grocery store: 4 days</li>
     <li>Users will create login details with loctaions: 5 days</li>
     <li>Users will search for restaurants around them with items on menu below $10: 5 days</li>
