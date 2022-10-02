@@ -14,7 +14,7 @@ This way we will collect and create our own dataset which we will use to create 
 <h3><strong> Stakeholders </strong></h3>
 <p> Grocery stores, Users(Students and common public), Restaurant Owners, Event hosts, software developers </p>
 
-<h3><strong> User Stories</strong></h3>
+<h3><strong> User Stories: Milestone 1.0<strong></h3>
 <ul>
     <li>Users will create and login details and with current location/address : 5 days</li>
     <ol>
@@ -34,9 +34,6 @@ This way we will collect and create our own dataset which we will use to create 
     </ol>
 </ul>
 
-<h3><strong> Requirements </strong></h3>
-<p>Grocery store API's , Restaurants API's , Events dataset </p>
-
 <h3> How to Run the Code </h3>
 <ol>
     <li> Git clone the code to the repository on your system </li>
@@ -44,12 +41,12 @@ This way we will collect and create our own dataset which we will use to create 
     <li> In the terminal run 'requirement.txt' file with 'pip' in the project directory </li>
     <li> To run the hello.py </li>
         <p> For Windows </p>
-        <p> Type the following in th terminal:<br></br>
-        set FLASK_APP=hello.py<br></br>
+        <p> Type the following in the terminal:
+        set FLASK_APP=hello.py
         flask run <br></br> </p>
         <p> For MaC and Linux </p>
-        <p> Type the following in th terminal:<br></br>
-        export FLASK_APP=hello.py<br></br>
+        <p> Type the following in the terminal:
+        export FLASK_APP=hello.py
         flask run <br></br> </p>
         <p>Copy paste the local host url in the browser to see the results </p>
         <p>Type Cltr+C on the terminal to terminat the local host url in the browser </p>
