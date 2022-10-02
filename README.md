@@ -42,7 +42,7 @@ This way we will collect and create our own dataset which we will use to create 
     <li> To run the hello.py </li>
         <p>For Windows Type the following in the terminal:<br>
         >set FLASK_APP=hello.py <br>
-        >flask run <br></br> </p>
+        >flask run <br></p>
         <p> For MaC and Linux Type the following in the terminal: <br>
         >export FLASK_APP=hello.py <br>
         >flask run <br> </p>
