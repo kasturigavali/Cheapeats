@@ -41,12 +41,12 @@ This way we will collect and create our own dataset which we will use to create 
     <li> In the terminal run 'requirement.txt' file with 'pip' in the project directory </li>
     <li> To run the hello.py </li>
         <p> For Windows </p>
-        <p> Type the following in the terminal:
-        set FLASK_APP=hello.py
+        Type the following in the terminal:<br></br>
+        set FLASK_APP=hello.py <br></br>
         flask run <br></br> </p>
         <p> For MaC and Linux </p>
-        <p> Type the following in the terminal:
-        export FLASK_APP=hello.py
+        <p> Type the following in the terminal:<br></br>
+        export FLASK_APP=hello.py <br></br>
         flask run <br></br> </p>
         <p>Copy paste the local host url in the browser to see the results </p>
         <p>Type Cltr+C on the terminal to terminat the local host url in the browser </p>
