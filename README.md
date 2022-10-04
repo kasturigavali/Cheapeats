@@ -16,7 +16,7 @@ This way we will collect and create our own dataset which we will use to create 
 
 <h3><strong> User Stories: Milestone 1.0<strong></h3>
 <ul>
-    <li>Users will create and login details and with current location/address : 5 days</li>
+    <li>Users will create profile with login details and current location/address : 5 days</li>
     <ol>
         <li>Create Welcome page</li>
         <li>Create input details tab </li>
@@ -28,7 +28,7 @@ This way we will collect and create our own dataset which we will use to create 
     (User will be able to save the list before going to store)
         <li> User will be able to submit the completed list with prices </li>
     </ol>
-    <li>Users will be able to see the dashboard of current prices across stores: 4 days</li>
+    <li>Users will be able to see the dashboard of current prices across stores: 5 days</li>
     <ol>
         <li>List submitted by users will reflect on dashboard for respective stores</li>
     </ol>
