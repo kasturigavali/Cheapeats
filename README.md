@@ -3,7 +3,7 @@ IST-303 - Class of Fall 2022 - Group Project
 
 <h4> Group Name: Syntax_Error </h4>
 
-<h4> Group Members: Kasturi Gavali, Jasmine Dominguez, Stephen Adjei, Derek James </h4>
+<h4> Group Members: Kasturi Gavali, Jasmin Dominguez, Stephen Adjei, Derek James </h4>
 
 <h3> <strong> Project Concept </strong> </h3>
 <p>Hello World! We are creating an application that will recommend grocery stores around you with cheapest price of a searched food item.</br></br>
