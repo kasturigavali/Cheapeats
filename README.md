@@ -14,7 +14,7 @@ This way we will collect and create our own dataset which we will use to create 
 <h3> How to Run the Code </h3>
 <ol>
     <li> Git clone the code to the repository on your system </li>
-       ``` $ git clone https://github.com/kasturigavali/Cheapeats.git ```
+       ` $ git clone https://github.com/kasturigavali/Cheapeats.git `
     <li> Create a virtual environment in the downloaded directory </li>
         Get into the downloaded directory
          ``` $ cd <directory_name> ```
