@@ -14,11 +14,18 @@ This way we will collect and create our own dataset which we will use to create 
 <h3> How to Run the Code </h3>
 <ol>
     <li> Git clone the code to the repository on your system </li>
-        <p>  $ git clone https://github.com/kasturigavali/Cheapeats.git <p>
+       ``` $ git clone https://github.com/kasturigavali/Cheapeats.git ```
     <li> Create a virtual environment in the downloaded directory </li>
+        Get into the downloaded directory
+         ``` $ cd <directory_name> ```
         <p> Install Virtual environment <p>
-        <p> pip install virtualenv <p>
-    <li> In the terminal run 'requirement.txt' file with 'pip' in the project directory </li>
+        ``` $ pip install virtualenv ```
+        <p> Create virtual environment name 'myenv' <p>
+         ``` $ python -m virtualenv myenv ```
+        <p> Activate virtual environment <p>
+         ``` $ source myenv/bin/activate OR myenv/Scripts/activate.bat ```
+    <li> Install the 'requirement.txt' file to download the required package </li>
+        ``` $ (myvenv)$ pip install -r requirements.txt ```
     <li> To run the hello.py </li>
         <p>For Windows Type the following in the terminal:<br>
         >set FLASK_APP=hello.py <br>
