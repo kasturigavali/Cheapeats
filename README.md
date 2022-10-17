@@ -15,26 +15,43 @@ This way we will collect and create our own dataset which we will use to create 
 ### How to Run the Code 
 
 1. Git clone the code to the repository on your system 
+
 ` $ git clone https://github.com/kasturigavali/Cheapeats.git `
-2. Create a virtual environment in the downloaded directory </li>
+
+2. Create a virtual environment in the downloaded directory 
+
      Get into the downloaded directory
+     
         ` $ cd <directory_name> `
+        
      Install Virtual environment 
+     
         ` $ pip install virtualenv `
+        
      Create virtual environment name 'myenv' 
+     
         ` $ python -m virtualenv myenv `
+        
      Activate virtual environment 
+     
         ```$ source myenv/bin/activate OR myenv/Scripts/activate.bat ``
-3.Install the 'requirement.txt' file to download the required package </li>
+        
+3.Install the 'requirement.txt' file to download the required package 
+
          ``$ (myvenv)$ pip install -r requirements.txt ``
+         
 4. To run the hello.py 
+
       For Windows Type the following in the terminal:
         ```>set FLASK_APP=hello.py
            >flask run ```
+           >
       For MaC and Linux Type the following in the terminal:
         ``` >export FLASK_APP=hello.py 
             >flask run ```
+            
       Copy paste the local host url in the browser to see the results
+      
       Type Cltr+C on the terminal to terminat the local host url in the browser 
 
 
