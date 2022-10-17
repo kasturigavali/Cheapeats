@@ -11,6 +11,25 @@ Since it is challenging to find the dataset of grocery store rates, we are intia
 their grocery store name, shopping list and item prices while shopping.<br></br>
 This way we will collect and create our own dataset which we will use to create a dashboard of live rates across vatious stores in a city </p>
 
+<h3> How to Run the Code </h3>
+<ol>
+    <li> Git clone the code to the repository on your system </li>
+        <p>  $ git clone https://github.com/kasturigavali/Cheapeats.git <p>
+    <li> Create a virtual environment in the downloaded directory </li>
+        <p> Install Virtual environment <p>
+        <p> pip install virtualenv <p>
+    <li> In the terminal run 'requirement.txt' file with 'pip' in the project directory </li>
+    <li> To run the hello.py </li>
+        <p>For Windows Type the following in the terminal:<br>
+        >set FLASK_APP=hello.py <br>
+        >flask run <br></p>
+        <p> For MaC and Linux Type the following in the terminal: <br>
+        >export FLASK_APP=hello.py <br>
+        >flask run <br> </p>
+        <p>Copy paste the local host url in the browser to see the results </p>
+        <p>Type Cltr+C on the terminal to terminat the local host url in the browser </p>
+</ol>
+
 <h3><strong> Stakeholders </strong></h3>
 <p> Grocery stores, Users(Students and common public), Restaurant Owners, Event hosts, software developers </p>
 
@@ -34,21 +53,7 @@ This way we will collect and create our own dataset which we will use to create 
     </ol>
 </ul>
 
-<h3> How to Run the Code </h3>
-<ol>
-    <li> Git clone the code to the repository on your system </li>
-    <li> Create a virtual environment in the downloaded directory </li>
-    <li> In the terminal run 'requirement.txt' file with 'pip' in the project directory </li>
-    <li> To run the hello.py </li>
-        <p>For Windows Type the following in the terminal:<br>
-        >set FLASK_APP=hello.py <br>
-        >flask run <br></p>
-        <p> For MaC and Linux Type the following in the terminal: <br>
-        >export FLASK_APP=hello.py <br>
-        >flask run <br> </p>
-        <p>Copy paste the local host url in the browser to see the results </p>
-        <p>Type Cltr+C on the terminal to terminat the local host url in the browser </p>
-</ol>
+
         
         
         
