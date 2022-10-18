@@ -31,7 +31,7 @@ This way we will collect and create our own dataset which we will use to create 
      Activate virtual environment      
      
            $ source myenv/bin/activate OR myenv/Scripts/activate.bat 
-3. Install the 'requirement.txt' file to download the required package 
+3. Install the 'requirements.txt' file to download the required package 
 
            $ (myvenv)$ pip install -r requirements.txt 
          
