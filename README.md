@@ -62,13 +62,16 @@ Grocery stores, Users(Students and common public), Restaurant Owners, Event host
 
 ### User Stories
 
-1. Create an Account on CheapEats  Priority 10
-    User will create an account
+1. Create an Account on CheapEats (Priority 10)
+   
+   User will create an account
 
-2. Create Shopping List  Priority 20
+2. Create Shopping List  (Priority 20)
+    
     User will create a shopping list of items
     
-3. Dashboard of Prices  Priority 40
+3. Dashboard of Prices  (Priority 40)
+    
     User will be able to see Dashboard of pricelist across their city/town
     
     
