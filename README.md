@@ -109,15 +109,18 @@ That is our teams velocity is 0.6
 - Users will create profile with login details and current location/address
   
     1. Create Welcome page
-    2. Create input details tab 
+    2. Create input details for Name
+    3. Create input details for location
+    4. Save the input data
      
      
 2. Iteration 2 (12 days)
 
 - Users will create shopping list
     
-     1. Create shopping list input tabs (frontend): Store Name, shopping list and price columns
-     2. Create database to store the input data (backend)
+     1. Create shopping list input tabs Store Name 
+     2. Shopping list and Price columns
+     3. Submit the data and save (backend)
     
      User will be able to save the list before going to store
      
