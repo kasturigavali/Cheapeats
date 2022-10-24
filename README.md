@@ -60,26 +60,75 @@ Type Cltr+C on the terminal to terminat the local host url in the browser
 ### Stakeholders 
 Grocery stores, Users(Students and common public), Restaurant Owners, Event hosts, software developers 
 
-### User Stories: Milestone 1.0
+### User Stories
 
-- Users will create profile with login details and current location/address : 5 days
-  
- 1. Create Welcome page
- 2. Create input details tab 
-     
-- Users will create shopping list : 5 days
-    
- 1. Create shopping list input tabs (frontend): Store Name, shopping list and price columns
- 2. Create database to store the input data (backend)
-    (User will be able to save the list before going to store)
-- User will be able to submit the completed list with prices 
-    
- 1. Users will be able to see the dashboard of current prices across stores: 5 days
+1. Create an Account on CheapEats (Priority 10)
    
-- List submitted by users will reflect on dashboard for respective stores
+   User will create an account
+
+2. Create Shopping List  (Priority 20)
+    
+    User will create a shopping list of items
+    
+3. Dashboard of Prices  (Priority 40)
+    
+    User will be able to see Dashboard of pricelist across their city/town
+    
+    
+ ### Decomposition of User Stories
+ 
+1. As a user I will visit the website and create an account (6 days) Priority 10
+   - Create a login page  (Kasturi)
+   - Create input details tab (Kasturi)
+   - Create input locatio tab for City/town  (Stephen)
+
+2. As a user I will create a shopping lilst/ cart of items (6 days) Priority 20
+   - Create a input tab for Store name in the users city (Jasmin)
+   - Create a input tabs for Shopping cart with units tab  (Derek)
+   - Craete input tabs for price infront of the items in the cart (Stephen)
+   - User will be able to save the data
+
+3. As a user goes to the store they can input the actual prices (6 days) Priority 20
+   - User will login and input price for the items in cart (Kasturi)
+   - User will submit the final list with pricing (Derek)
+
+
+4. As a user I can see the Dashboard of item prices acrooss the stores in my city (12 days) Priority 40
+   - User can see the dashboard of live prices across various stores
+
+### Velocity
+
+Considering the working hours, classes and other overhead our team working time will about 60% of our available time.
+That is our teams velocity is 0.6
+
+
+### Milestone 1.0
+
+1. Iteration 1  (6 days)
+
+- Users will create profile with login details and current location/address
+  
+    1. Create Welcome page
+    2. Create input details for Name
+    3. Create input details for location
+    4. Save the input data
+     
+     
+2. Iteration 2 (12 days)
+
+- Users will create shopping list
+    
+     1. Create shopping list input tabs Store Name 
+     2. Shopping list and Price columns
+     3. Submit the data and save (backend)
+    
+     User will be able to save the list before going to store
+     
+     User will be able to submit the completed list with prices after visiting the store
+    
 
 
 
         
         
-        
+       
