@@ -9,6 +9,8 @@ def home():
     # return '<h2>Hello, World! Welcome to <sub>Cheap</sub>Eats</h2>'
 
 # @app.route()
+# def login():
+#     return renter_template('login.html')
 
 if __name__ == '__main__':
     app.run(debug=True,port=8000)
