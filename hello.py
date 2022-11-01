@@ -25,6 +25,10 @@ def login():
         password = request.form.get('psw')
     return render_template("/login.html")
 
+@app.route('/shoppingcart')
+def shoppingcart():
+    return render_template("/shoppingcart.html")
+
 
 
 if __name__ == '__main__':
