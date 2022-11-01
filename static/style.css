@@ -10,7 +10,7 @@
 
 .logo img{
     margin: 0.2cm; 
-    width: 50%;
+    width: 30%;
     border: 1px solid white;
     border-radius:40px;
 }
@@ -25,7 +25,7 @@
 }
 
 .nav-list{
-    width: 55%;  
+    width: 75%;  
     display: flex;
     align-items: center;
 }
