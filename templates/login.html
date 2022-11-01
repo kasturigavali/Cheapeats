@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href = 'static/style.css'>
+    <title>CheapEats</title>
+</head>
+<body>
+    <nav class="navbar background">
+        <ul class="nav-list">
+          <div class ='logo'><img src='static/cheapeats.png' alt='logo'></div>  
+          <li><a id="home" href ="/"> Home </a></li>    
+        </ul >
+    </nav>
+    <section class="background firstSection">
+        <div class="box-main">
+            <section class="Section", id ="login">
+                
+                <form action="/form_login" method="post">
+                    <div class="imgcontainer">
+                      <img src="static/avatar.jpg" alt="Avatar" class="avatar">
+                    </div>
+                    <p class="logintext">Login</p><br>
+                    <div class="container">
+                      <label for="email"><b>Email</b></label>
+                      <input type="text" placeholder="Enter Email" name="email" required>
+                  
+                      <label for="psw"><b>Password</b></label>
+                      <input type="password" placeholder="Enter Password" name="psw" required>
+                  
+                      <button type="submit">Login</button>
+                      <label>
+                        <input type="checkbox" checked="checked" name="remember"> Remember me
+                      </label>
+                    </div>
+                  
+                    <div class="container" >
+                      <button type="button" class="cancelbtn">Cancel</button>
+                      <span class="psw">Forgot <a href="#">password?</a></span>
+                    </div>
+                  </form>
+    
+    
+    </section>
+</body>
+</html>

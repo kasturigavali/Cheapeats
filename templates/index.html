@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href = 'static/style.css'>
+    <title>CheapEats</title>
+</head>
+<body>
+    <nav class="navbar background">
+        <ul class="nav-list">
+          <div class ='logo'><img src='static/cheapeats.png' alt='logo'></div>  
+          <li><a id="home" href ="#"> Home </a></li>
+          <li><a href ="#signup"> Sign Up </a></li>
+          <li><a id="login" href ="/login">Login</a></li>
+          <li><a id="shoppinglist" href ="/ShoppingCart">Shopping Cart</a></li>
+          <li><a id="dashboard" href ="#dashboard"> Dashboard </a>  </li>    
+        </ul >
+    </nav>
+    <section class="background firstSection">
+        <div class="box-main">
+            <div class="firstHalf">
+                <p class="heading">Welcome to CheapEats</p><br>
+                <p class="Message">CheapEats will help you compare the prices of your favorite food items across different grocery stores in your city. 
+                    All you have to do is create a shopping list and enter the current prices of the food items from the store you visit.
+                    This way everyone keeps the dashboard updated with live prices store prices around the city and help each other to get best deals.
+    
+                </p>
+            </div>
+            <div class="secondHalf">
+                <img src="static/cheapeats.png" alt="logo">
+            </div>
+
+    </section>
+        
+    <section class="Section", id ="signup">
+        <form  action = "/form_signup" method ="post">
+          <div class="container">
+            <h1>Let's Begin, Sign Up Now!</h1><br>
+            <p>Please fill in this form to create an account.</p>
+            <hr>
+        
+            <label for="email"><b>Email</b></label>
+            <input type="email" placeholder="Enter a valid Email" name="email" required>
+        
+            <label for="psw"><b>Password</b></label>
+            <input type="password" placeholder="Enter Password, Must be 8 characters" name="psw" required>
+        
+            <label for="psw-repeat"><b>Repeat Password</b></label>
+            <input type="password" placeholder="Repeat Password" name="psw-repeat" required>
+        
+            <label>
+              <input type="checkbox" checked="checked" name="remember" style="margin-bottom:15px"> Remember me
+            </label>
+        
+            <div class="clearfix">
+              <button type="button" class="cancelbtn">Cancel</button>
+              <button type="submit" class="signupbtn">Sign Up</button>
+            </div>
+          </div>
+        </form>
+
+
+
+
+    </section>
+</body>
+</html>
