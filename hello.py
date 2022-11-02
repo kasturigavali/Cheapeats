@@ -2,7 +2,7 @@ from flask import Flask, render_template, request
 # from flask_sqlalchemy import SQLAlchemy
 
 app = Flask(__name__, template_folder='templates')
-# app.config['SQLALCHEMY_DATABASE']
+# app.config['SQLALCHEMY_DATABASE'] = "sqlite:///cheapeats.db"
 
 @app.route('/')
 def home():
