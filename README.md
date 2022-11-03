@@ -125,6 +125,51 @@ That is our teams velocity is 0.6
      User will be able to save the list before going to store
      
      User will be able to submit the completed list with prices after visiting the store
+     
+  While working on Milestone 1.0, we revised our user stories considering the project deadline and team velocity,
+  which was recorded to be 0.4
+  
+### Revised Milestone 1.0
+
+1. Iteration 1  (6 days)
+
+- Users will create profile with login details and current location/address
+  
+    1. Create Welcome page
+    2. Create input details for Name
+    3. Create input details for location
+    4. Save the input data
+ 
+ User will be able to see the welcome page and know what our website does
+     
+2. Iteration 2 (12 days)
+
+- Users will create shopping list
+    
+     1. Create shopping list input tabs with Store Name 
+
+### Milestone 2.0
+
+1. Iteration 1  (10 days)
+
+- Users will be able to submit the data he has entered
+
+    1. User will be able to input data in the shopping list table (With Qty and current Price)
+    2. User will input the present date
+    2. User will submit the data
+    
+   User submitted data will be save in cheapeats database
+   
+       
+2. Iteration 2 (12 days)
+
+- Users can see the dashboard which will display the item rates across various stores
+    
+     1. With help of collected data from the user ,create a query to display the store names and price of the item 
+    
+
+
+  
     
 
 
