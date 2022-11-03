@@ -126,8 +126,9 @@ That is our teams velocity is 0.6
      
      User will be able to submit the completed list with prices after visiting the store
      
-  While working on Milestone 1.0, we revised our user stories considering the project deadline and team velocity,
-  which was recorded to be 0.4
+     
+While working on Milestone 1.0, we revised our user stories considering the project deadline and team velocity,
+which was recorded to be 0.4
   
 ### Revised Milestone 1.0
 
