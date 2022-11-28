@@ -9,21 +9,6 @@ def home():
     return render_template('index.html')
     # return '<h2>Hello, World! Welcome to <sub>Cheap</sub>Eats</h2>'
 
-@app.route('/signup', methods= ['GET', 'POST'])
-def signup():
-    if request.method == 'POST':
-        email = request.form.get('email') 
-        password = request.form.get('psw')
-        confirm_password = request.form.get('repeat-psw')
-    return render_template("index.html")
-
-
-@app.route('/login', methods= ['GET', 'POST'])
-def login():
-    if request.method == 'POST':
-        email = request.form.get('email') 
-        password = request.form.get('psw')
-    return render_template("/login.html")
 
 @app.route('/shoppingcart')
 def shoppingcart():

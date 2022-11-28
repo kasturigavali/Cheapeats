@@ -7,6 +7,7 @@
     <link rel="stylesheet" href = 'static/style.css'>
     <title>CheapEats</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
 </head>
 <body>
     <nav class="navbar background">
@@ -15,69 +16,155 @@
           <li><a id="home" href ="/"> Home </a></li>    
         </ul >
     </nav>
-    <section class="background firstSection">
-        <div class="box-main1">
-            <div class="firstHalf1">
-                <section class="Section1", id ="shoppingcartdetails">                   
-                    <form action="" method="post">
-                        <p class="logintext">Input Details</p><br>
-                        <div class="container">
-                        <label for="email"><b>Email</b></label>
-                        <input type="text" placeholder="Enter Email" name="email" required>
-                    
-                        <label for="psw"><b>Password</b></label>
-                        <input type="password" placeholder="Enter Password, Must be 8 characters" name="psw" required>
-                    
-                        <label for="location"><b>Location</b></label>
-                        <input type="text" placeholder="Enter your City and State, eg.Los Angeles, CA" name="location" required>
-                    
-                        <label for="pincode"><b>Pincode</b></label>
-                        <input type="text" placeholder="Enter your pincode" name="pincode" required>
-                    
-
-                        <button type="submit">Submit</button>
-                        <label>
-                            <input type="checkbox" checked="checked" name="remember"> Remember me
-                        </label>
-                        </div>
-                    </form>
-                </section>    
-            </div>
-        </div>
+    <section class="background firstSection1">              
+        <div class="container">
+          
+                  <form action="/shoppingcart" method="POST">
+                      <label for="location"><b>Location</b></label>
+                      <input type="text" placeholder="Enter your City and State, eg.Los Angeles, CA" name="location" required><br>
+                      <label for="storename"><b>Select Store</b></label>
+                      <select name = "storename" id = "storename" aria-placeholder="">
+                        <option value="1">Super King Market</option>
+                        <option value="2">Walmart Neighbourhood</option>
+                        <option value="3">Trader Joes</option>
+                        <option value="4">Sprouts Farmers Market</option>
+                      </select>
+                  </form><br><br> 
+                    <table style="width:100%">
+                      <tr>
+                        <th>Item.No</th>
+                        <th>Item Name</th>
+                        <th>Quantity</th>
+                        <th>Unit</th>
+                        <th>Unit Price</th>
+                      </tr>
+                      <tr>
+                        <td>1</td>
+                        <td>Coke</td>
+                        <td>12</td>
+                        <td>Can Pack</td>
+                        <td>
+                          <form action="/" method="POST">
+                          <label for="coke"><b>$</b></label>
+                          <input type="text" placeholder="Enter Price" id = "coke" name="coke" pattern="^\$\d{1,3}(,\d{3})*(\.\d+)?$" required> 
+                          </form>                   
+                        </td>
+                      </tr>
+                      <tr>
+                        <td>2</td>
+                        <td>Whole Milk</td>
+                        <td>1</td>
+                        <td>Gallon</td>
+                        <td>
+                          <form action="/" method="POST">
+                          <label for="milk"><b>$</b></label>
+                          <input type="text" placeholder="Enter Price" id = "milk" name="milk" pattern="^\$\d{1,3}(,\d{3})*(\.\d+)?$" required> 
+                          </form>                   
+                        </td>
+                      </tr>
+                      <tr>
+                        <td>3</td>
+                        <td>Doritos</td>
+                        <td>1</td>
+                        <td>Pack</td>
+                        <td>
+                          <form action="/" method="POST">
+                          <label for="chips"><b>$</b></label>
+                          <input type="text" placeholder="Enter Price" id = "chips" name="chips" pattern="^\$\d{1,3}(,\d{3})*(\.\d+)?$" required> 
+                          </form>                   
+                        </td>
+                      </tr>
+                      <tr>
+                        <td>4</td>
+                        <td>Eggs</td>
+                        <td>12</td>
+                        <td>Numbers</td>
+                        <td>
+                          <form action="/" method="POST">
+                          <label for="eggs"><b>$</b></label>
+                          <input type="text" placeholder="Enter Price" id = "eggs" name="eggs" pattern="^\$\d{1,3}(,\d{3})*(\.\d+)?$" required> 
+                          </form>                   
+                        </td>
+                      </tr>
+                      <tr>
+                        <td>5</td>
+                        <td>White Bread</td>
+                        <td>1</td>
+                        <td>Pack</td>
+                        <td>
+                          <form action="/" method="POST">
+                          <label for="wbread"><b>$</b></label>
+                          <input type="text" placeholder="Enter Price" id = "wbread" name="wbread" pattern="^\$\d{1,3}(,\d{3})*(\.\d+)?$" required> 
+                          </form>                   
+                        </td>
+                      </tr>
+                      <tr>
+                        <td>6</td>
+                        <td>Wheat Bread</td>
+                        <td>1</td>
+                        <td>Pack</td>
+                        <td>
+                          <form action="/" method="POST">
+                          <label for="whbread"><b>$</b></label>
+                          <input type="text" placeholder="Enter Price" id = "whbread" name="whbread" pattern="^\$\d{1,3}(,\d{3})*(\.\d+)?$" required> 
+                          </form>                   
+                        </td>
+                      </tr>
+                      <tr>
+                        <td>7</td>
+                        <td>Hass Avocado</td>
+                        <td>1</td>
+                        <td>Pack</td>
+                        <td>
+                          <form action="/" method="POSTT">
+                          <label for="avo"><b>$</b></label>
+                          <input type="text" placeholder="Enter Price" id = "avo" name="avo" pattern="^\$\d{1,3}(,\d{3})*(\.\d+)?$" required> 
+                          </form>                   
+                        </td>
+                      </tr>
+                      <tr>
+                        <td>8</td>
+                        <td>Bananas</td>
+                        <td>1</td>
+                        <td>lb</td>
+                        <td>
+                          <form action="/" method="POST">
+                          <label for="banana"><b>$</b></label>
+                          <input type="text" placeholder="Enter Price" id = "banana" name="banana" pattern="^\$\d{1,3}(,\d{3})*(\.\d+)?$" required> 
+                          </form>                   
+                        </td>
+                      </tr>
+                      <tr>
+                        <td>9</td>
+                        <td>Chicken</td>
+                        <td>1</td>
+                        <td>lb</td>
+                        <td>
+                          <form action="/" method="POST">
+                          <label for="meat"><b>$</b></label>
+                          <input type="text" placeholder="Enter Price" id = "meat" name="meat" pattern="^\$\d{1,3}(,\d{3})*(\.\d+)?$" required> 
+                          </form>                   
+                        </td>
+                      </tr>
+                      <tr>
+                        <td>10</td>
+                        <td>Mozzarella</td>
+                        <td>1</td>
+                        <td>lb</td>
+                        <td>
+                          <form action="/" method="POST">
+                          <label for="cheese"><b>$</b></label>
+                          <input type="text" placeholder="Enter Price" id = "cheese" name="cheese" pattern="^\$\d{1,3}(,\d{3})*(\.\d+)?$" required> 
+                          </form>                   
+                        </td>
+                      </tr>
+                    </table>
+                    <div class="container1">
+                      <button type="submit">Submit</button>
+                    </div>
+              
+          </div>
     </section>
-    <section class ="Section" id = 'shoppingcart'>
-        <table class="table">
-            <thead>
-              <tr>
-                <th scope="col">Sr.No</th>
-                <th scope="col">Item</th>
-                <th scope="col">Qty</th>
-                <th scope="col">Price</th>
-              </tr>
-            </thead>
-            <tbody>
-              <tr>
-                <th scope="row">1</th>
-                <td>Banana</td>
-                <td>1 lb</td>
-                <td>0.99</td>
-              </tr>
-              <tr>
-                <th scope="row">2</th>
-                <td>Eggs</td>
-                <td>1 Carton</td>
-                <td>2.99</td>
-              </tr>
-              <tr>
-                <th scope="row">2</th>
-                <td>Milk</td>
-                <td>1 gal</td>
-                <td>2.99</td>
-              </tr>
-            </tbody>
-          </table>
-    </section>
-
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script>
 </body>
