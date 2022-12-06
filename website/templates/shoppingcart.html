@@ -18,84 +18,92 @@
     </nav>
     <section class="background firstSection1">              
         <div class="container">
-          
+          <p class="heading">CheapEats ShoppingCart</p>
+          <p class="Message">Please fill in the details below and hit Submit.
+          </p><br>
                   <form action="/shoppingcart" method="POST">
-                      <label for="location"><b>Location</b></label>
-                      <input type="text" placeholder="Enter your City and State, eg.Los Angeles, CA" name="location" required><br>
-                      <label for="storename"><b>Select Store</b></label>
-                      <select name = "storename" id = "storename" aria-placeholder="">
-                        <option value="1">Super King Market</option>
-                        <option value="2">Walmart Neighbourhood</option>
-                        <option value="3">Trader Joes</option>
-                        <option value="4">Sprouts Farmers Market</option>
-                      </select>
-                  </form><br><br> 
                     <table style="width:100%">
                       <tr>
-                        <th>Item.No</th>
-                        <th>Item Name</th>
-                        <th>Quantity</th>
-                        <th>Unit</th>
-                        <th>Unit Price</th>
+                        <td style="width:10%" ><label for="location"><b>Location</b></label></td>
+                        <td style="width:90%"><input type="text" placeholder="Enter your City and State, eg.Los Angeles, CA" name="location" id ='location' required></td>
                       </tr>
                       <tr>
+                        <td><label for="storename"><b>Select Store</b></label></td>
+                        <td><select name = "storename" id = "storename" aria-placeholder="">
+                          <option value="Super_King">Super King Market</option>
+                          <option value="Walmart_Neighbourhood">Walmart Neighbourhood</option>
+                          <option value="Trader_Joes">Trader Joes</option>
+                          <option value="Sprouts_Farmers">Sprouts Farmers Market</option>
+                        </select></td>
+                      </tr>
+                    </table>
+                  <br><br> 
+                    <table style="width:100%" >
+                      <tr>
+                        <th style="width:10%" >Item.No</th>
+                        <th style="width:20%" >Item Name</th>
+                        <th style="width:20%" >Quantity</th>
+                        <th style="width:20%" >Unit</th>
+                        <th style="width:30%" >Unit Price</th>
+                      </tr>
+                      <tr >
                         <td>1</td>
                         <td>Coke</td>
                         <td>12</td>
-                        <td>Can Pack</td>
+                        <td>Cans</td>
                         <td>
-                          <form action="/" method="POST">
+      
                           <label for="coke"><b>$</b></label>
-                          <input type="text" placeholder="Enter Price" id = "coke" name="coke" pattern="^\$\d{1,3}(,\d{3})*(\.\d+)?$" required> 
-                          </form>                   
+                          <input type="text" placeholder="Enter Price" id = "coke" name="coke" > 
+                                            
                         </td>
                       </tr>
-                      <tr>
+                      <tr >
                         <td>2</td>
                         <td>Whole Milk</td>
-                        <td>1</td>
+                        <td >1</td>
                         <td>Gallon</td>
                         <td>
-                          <form action="/" method="POST">
+                         
                           <label for="milk"><b>$</b></label>
-                          <input type="text" placeholder="Enter Price" id = "milk" name="milk" pattern="^\$\d{1,3}(,\d{3})*(\.\d+)?$" required> 
-                          </form>                   
+                          <input type="text" placeholder="Enter Price" id = "milk" name="milk" > 
+                                          
                         </td>
                       </tr>
-                      <tr>
+                      <tr >
                         <td>3</td>
                         <td>Doritos</td>
-                        <td>1</td>
+                        <td >1</td>
                         <td>Pack</td>
                         <td>
-                          <form action="/" method="POST">
+                          
                           <label for="chips"><b>$</b></label>
-                          <input type="text" placeholder="Enter Price" id = "chips" name="chips" pattern="^\$\d{1,3}(,\d{3})*(\.\d+)?$" required> 
-                          </form>                   
+                          <input type="text" placeholder="Enter Price" id = "chips" name="chips" > 
+                                         
                         </td>
                       </tr>
-                      <tr>
+                      <tr >
                         <td>4</td>
                         <td>Eggs</td>
-                        <td>12</td>
+                        <td >12</td>
                         <td>Numbers</td>
                         <td>
-                          <form action="/" method="POST">
+                         
                           <label for="eggs"><b>$</b></label>
-                          <input type="text" placeholder="Enter Price" id = "eggs" name="eggs" pattern="^\$\d{1,3}(,\d{3})*(\.\d+)?$" required> 
-                          </form>                   
+                          <input type="text" placeholder="Enter Price" id = "eggs" name="eggs"  > 
+                                          
                         </td>
                       </tr>
-                      <tr>
+                      <tr >
                         <td>5</td>
                         <td>White Bread</td>
-                        <td>1</td>
+                        <td >1</td>
                         <td>Pack</td>
                         <td>
-                          <form action="/" method="POST">
+                         
                           <label for="wbread"><b>$</b></label>
-                          <input type="text" placeholder="Enter Price" id = "wbread" name="wbread" pattern="^\$\d{1,3}(,\d{3})*(\.\d+)?$" required> 
-                          </form>                   
+                          <input type="text" placeholder="Enter Price" id = "wbread" name="wbread" > 
+                                         
                         </td>
                       </tr>
                       <tr>
@@ -104,65 +112,67 @@
                         <td>1</td>
                         <td>Pack</td>
                         <td>
-                          <form action="/" method="POST">
+                         
                           <label for="whbread"><b>$</b></label>
-                          <input type="text" placeholder="Enter Price" id = "whbread" name="whbread" pattern="^\$\d{1,3}(,\d{3})*(\.\d+)?$" required> 
-                          </form>                   
+                          <input type="text" placeholder="Enter Price" id = "whbread" name="whbread"> 
+                                        
                         </td>
                       </tr>
-                      <tr>
+                      <tr >
                         <td>7</td>
                         <td>Hass Avocado</td>
                         <td>1</td>
-                        <td>Pack</td>
+                        <td>Each</td>
                         <td>
-                          <form action="/" method="POSTT">
+                      
                           <label for="avo"><b>$</b></label>
-                          <input type="text" placeholder="Enter Price" id = "avo" name="avo" pattern="^\$\d{1,3}(,\d{3})*(\.\d+)?$" required> 
-                          </form>                   
+                          <input type="text" placeholder="Enter Price" id = "avo" name="avo"> 
+                                         
                         </td>
                       </tr>
                       <tr>
                         <td>8</td>
                         <td>Bananas</td>
                         <td>1</td>
-                        <td>lb</td>
+                        <td>Lb</td>
                         <td>
-                          <form action="/" method="POST">
+                       
                           <label for="banana"><b>$</b></label>
-                          <input type="text" placeholder="Enter Price" id = "banana" name="banana" pattern="^\$\d{1,3}(,\d{3})*(\.\d+)?$" required> 
-                          </form>                   
+                          <input type="text" placeholder="Enter Price" id = "banana" name="banana" > 
+                                        
                         </td>
                       </tr>
-                      <tr>
+                      <tr >
                         <td>9</td>
                         <td>Chicken</td>
                         <td>1</td>
-                        <td>lb</td>
+                        <td>Lb</td>
                         <td>
-                          <form action="/" method="POST">
+                          
                           <label for="meat"><b>$</b></label>
-                          <input type="text" placeholder="Enter Price" id = "meat" name="meat" pattern="^\$\d{1,3}(,\d{3})*(\.\d+)?$" required> 
-                          </form>                   
+                          <input type="text" placeholder="Enter Price" id = "meat" name="meat" > 
+                                     
                         </td>
                       </tr>
-                      <tr>
+                      <tr >
                         <td>10</td>
                         <td>Mozzarella</td>
                         <td>1</td>
-                        <td>lb</td>
+                        <td>Lb</td>
                         <td>
-                          <form action="/" method="POST">
+                          
                           <label for="cheese"><b>$</b></label>
-                          <input type="text" placeholder="Enter Price" id = "cheese" name="cheese" pattern="^\$\d{1,3}(,\d{3})*(\.\d+)?$" required> 
-                          </form>                   
+                          <input type="text" placeholder="Enter Price" id = "cheese" name="cheese"  > 
+                                           
                         </td>
                       </tr>
                     </table>
                     <div class="container1">
+                  
                       <button type="submit">Submit</button>
+                      
                     </div>
-              
+                  </form>  
           </div>
     </section>
 

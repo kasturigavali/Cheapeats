@@ -52,8 +52,10 @@
 }
 
 .firstSection{
-    height: 140vh;
+    height: 125vh;
 }
+
+
 
 .box-main{
     display: flex;
@@ -106,7 +108,7 @@
 
 
 input[type=text], input[type=password] {
-  width: 35%;
+  width: 39%;
   padding: 9px 20px;
   margin: 5px 0;
   display: inline-block;
@@ -116,11 +118,22 @@ input[type=text], input[type=password] {
 }
 
 .firstSection1{
+  height: 125vh;
+}
+.firstSection2{
   height: 185vh;
 }
 
 
 .container {
+  padding: 16px;
+  color: white;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  /* text-align:center; */
+  justify-content:center;
+}
+
+.container1 {
   padding: 16px;
   color: white;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
@@ -146,12 +159,18 @@ button {
   margin: 8px 0;
   border: none;
   cursor: pointer;
-  width: 50%;
+  width: 10%;
 }
 
 button:hover {
   opacity: 0.8;
 }
+
+
+/* table,td{
+  text-align: center;
+} */
+
 
 
 /* .logintext{
