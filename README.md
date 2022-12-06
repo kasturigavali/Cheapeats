@@ -13,52 +13,36 @@ their grocery store name, shopping list and item prices while shopping.
 This way we will collect and create our own dataset which we will use to create a dashboard of live rates across vatious stores in a city 
 
 ### How to Run the Code 
-1. Git clone the code to the repository on your system 
-
+1. Git clone the code to the repository on your system: 
             $ git clone https://github.com/kasturigavali/Cheapeats.git 
-
 2. Create a virtual environment in the downloaded directory 
      
-     Get into the downloaded directory     
-           
-           $ cd <directory_name> 
-     Install Virtual environment  
+     Get into the downloaded directory: 
      
-            $ pip install virtualenv         
-     Create virtual environment name 'myenv'  
+             $ cd <directory_name> 
+     Install Virtual environment: 
+     
+            $ pip install virtualenv      
+            
+     Create virtual environment name 'myenv':  
      
             $ python -m virtualenv myenv         
-     Activate virtual environment      
+     Activate virtual environment:         
      
            $ source myenv/bin/activate OR myenv/Scripts/activate.bat 
-3. Install the 'requirements.txt' file to download the required package 
+3. Install the 'requirements.txt' file to download the required package:
 
            $ (myvenv)$ pip install -r requirements.txt 
+        
+4. Run the 'main.py'and click on the local host url to view the webpage
          
-4. To run the hello.py 
-
-     For Windows Type the following in the terminal:
-         
-          >set FLASK_APP=main.py
-
-          >flask run 
-         
-
-     For MaC and Linux Type the following in the terminal:
-       
-       
-          >export FLASK_APP=main.py 
-
-          >flask run 
-         
-            
-Copy paste the local host url in the browser to see the results
+OR Copy paste the local host url in the browser to see the results
       
-Type Cltr+C on the terminal to terminat the local host url in the browser 
+Type Cltr+C on the terminal to terminate the local host url in the browser 
 
 
 ### Stakeholders 
-Grocery stores, Users(Students and common public), Restaurant Owners, Event hosts, software developers 
+Grocery stores, Users(Public), Software developers 
 
 ### User Stories
 
@@ -88,7 +72,7 @@ Grocery stores, Users(Students and common public), Restaurant Owners, Event host
    - Create input tabs for price infront of the items in the cart (Stephen)
    - User will be able to submit the data with submit button
 
-3. As a user goes to the store they can input the actual prices which id saved on our database(6 days) Priority 20
+3. As a user goes to the store they can input the actual prices which is saved on cheapeats database(6 days) Priority 20
    - Create table for shopping list in the database (Kasturi)
    - User will input data for prices which will be saved in other table linked to shopping list table by foreign key (Kasturi)
 
@@ -134,18 +118,17 @@ which was recorded to be 0.4
 
 1. Iteration 1  (6 days)
 
-- Users will create profile with login details and current location/address
+- Users will be able to view or welcome, shopping cart and dashboard page
   
     1. Create Welcome page
     2. Create the shopping cart tab to shopping cart html
     3. Create the dashboard cart tab to dashboard html
-    4. Save the input data
  
  User will be able to see the welcome page and know what our website does
      
 2. Iteration 2 (12 days)
 
-- Users will input data in shopping list
+- Create user input tabs and database in shopping cart
     
      1. Create shopping list page with location input , store name input and default top 10 grocery items. 
 
@@ -173,10 +156,35 @@ which was recorded to be 0.4
     
 
 
-### How to Test the Code
+### How to Test the Code and Test Coverage
 
+The requirments.txt file will install pytest and pytest-flask in your virtual envirinment and hence you can directly run the following commands.
 
-### Three things learned about software development from this project 
+1. Open the test_models.py file from the tests folder of repo run following code in the terminal
+
+             $ pytest
+OR run the following code in the main repo folder
+
+            $ pytest test_models.py
+2. To see the test coverage report copy paste following in the terminal
+
+            $ pytest --cov
+            
+            
+### Things learned about software development from this project 
+
+1. Choose a process that works for your team and your project. It necessary to understand what the team is capable of considering the skillsets
+and their commitment towards the project, and then tailor the user stories to match what YOUR customer wants and needs
+
+2. Version Control: Changes can be distributed across a team without risking file loss and overwrites. You can also tag and branch and keep up with multiple versions.
+
+3. Evaluate and Accesses:  Even though we had great ideas from beginning regarding how the website should look, we evaluated and accesses what we can work on 
+as per requirements, data available and time constraints and made changes accordingly throughout the process.
+
+4. We can have great design ideas but what matters in the end is what kind of working software we can deliver in the limited time frame.
+
+5. User stories and tasks are useful tools to keep track of the project.
+
 
   
     
