@@ -80,7 +80,7 @@ Grocery stores, Users(Students and common public), Restaurant Owners, Event host
 1. As a user I will visit the website(6 days) Priority 10
    - Create welcome page  (Kasturi)
    - Create shopping cart tab routing to shopping cart page (Kasturi)
-   - Create dashboard tab routing to dashboard page  (Stephen)
+   - Create dashboard tab routing to dashboard page  (Kasturi)
 
 2. As a user I will create a shopping list/ cart of items (6 days) Priority 20
    - Create a input tab for Store name in the users city (Jasmin)
