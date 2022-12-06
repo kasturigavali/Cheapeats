@@ -3,7 +3,6 @@ from website.models.dbmodels import Cart,CartEntries
 from website import db
 
 
-
 def test_cart_items(app):
     testcount = None
     with app.app_context():
