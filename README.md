@@ -178,7 +178,7 @@ and their commitment towards the project, and then tailor the user stories to ma
 
 2. Version Control: Changes can be distributed across a team without risking file loss and overwrites. You can also tag and branch and keep up with multiple versions.
 
-3. Evaluate and Access:  Even though we had great ideas from beginning regarding how the website should look, we evaluated and accesses what we can work on 
+3. Evaluate and Accesses:  Even though we had great ideas from beginning regarding how the website should look, we evaluated and accesses what we can work on 
 as per requirements, data available and time constraints and made changes accordingly throughout the process.
 
 4. We can have great design ideas but what matters in the end is what kind of working software we can deliver in the limited time frame.
