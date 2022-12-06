@@ -19,9 +19,14 @@
     <section class="background firstSection2">              
         <div class="container">
             <p class="heading">CheapEats Dashboard</p>
-            <p class="Message">The dashboard displays prices of the most purchased grocery items from corresponding grocery stores
-                                and the date for the item price.
+            <p class="Message">The dashboard displays prices of the most purchased grocery items from corresponding grocery stores,
+                                by selecting the date.
             </p><br>
+            <form action="/dashboard" method="POST">
+                <label for="date">Select Date:</label>
+                <input type="date" name="date" id="date" value="2022-12-04" min="2022-12-01" max="2023-12-04"><br><br>
+                <button type="submit">Submit</button><br>
+            </form><br>
             <table id="data" style="width:100%; border:1px solid wheat; border-collapse:collapse; background-color:black">    
                 <thead>      
                     <tr style = "text-align: center;border:1px solid wheat; border-collapse:collapse">        

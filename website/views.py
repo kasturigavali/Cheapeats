@@ -117,12 +117,19 @@ def shoppingcart():
 
 @views.route('/dashboard',methods=['GET', 'POST'])
 def dashboard():
-            query = '''SELECT c.item_name as Item_Name, REPLACE(ce.store_name,'_' , ' ') as Store_Name, MIN(ce.price) as Minimum_Price,  strftime('%d-%m-%Y', ce.[date]) as Date 
-            FROM cart_entries as ce
-            JOIN cart as c
-            ON c.id = ce.sl_item
-            GROUP BY c.item_name, ce.store_name, ce.[date]
-            ORDER BY ce.[date] , c.id
-                '''
+    if request.method == 'POST':
+        getdate = request.form.get('date')
+        print(getdate)
+        if getdate:
+            query = f'''SELECT c.item_name as Item_Name, REPLACE(ce.store_name,'_' , ' ') as Store_Name, MIN(ce.price) as Minimum_Price,  strftime('%Y-%m-%d', ce.[date]) as Date 
+                FROM cart_entries as ce
+                JOIN cart as c
+                ON c.id = ce.sl_item
+                WHERE strftime('%Y-%m-%d', ce.[date]) = '{getdate}'
+                GROUP BY c.item_name, ce.store_name, ce.[date]
+                ORDER BY ce.[date] , c.id
+                    '''
             cartentries = db.engine.execute(query)
-            return render_template('dashboard.html', cartentries=cartentries) 
+            
+        return render_template('dashboard.html',cartentries=cartentries ) 
+    return render_template('dashboard.html') 
