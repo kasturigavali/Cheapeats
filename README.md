@@ -14,9 +14,7 @@ This way we will collect and create our own dataset which we will use to create 
 
 ### How to Run the Code 
 1. Git clone the code to the repository on your system 
-
             $ git clone https://github.com/kasturigavali/Cheapeats.git 
-
 2. Create a virtual environment in the downloaded directory 
      
      Get into the downloaded directory     
