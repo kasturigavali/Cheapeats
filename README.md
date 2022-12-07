@@ -145,7 +145,7 @@ which was recorded to be 0.4
     4. The cart entries table will be populated by values from input tabs, this table is linked to shoppinglist table.
     
     
-   User submitted data will be save in cheapeats database
+   User submitted data will be saved in cheapeats database
    
        
 2. Iteration 2 (12 days)
@@ -158,7 +158,7 @@ which was recorded to be 0.4
 
 ### How to Test the Code and Test Coverage
 
-The requirments.txt file will install pytest and pytest-flask in your virtual envirinment and hence you can directly run the following commands.
+The requirments.txt file will install pytest and pytest-flask in your virtual environment and hence you can directly run the following commands.
 
 1. Open the test_models.py file from the tests folder of repo run following code in the terminal
 
