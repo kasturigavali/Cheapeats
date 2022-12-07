@@ -121,7 +121,7 @@ input[type=text], input[type=password] {
   height: 125vh;
 }
 .firstSection2{
-  height: 185vh;
+  height: 195vh;
 }
 
 
@@ -167,3 +167,10 @@ button:hover {
 }
 
 
+.text-footer{
+text-align: center;
+display:flex;
+justify-content: center;
+font-family: 'Ubuntu',sans-serif;
+color: white;
+}
